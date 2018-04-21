@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CodeReview2</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- Navbar and Logo-->
+    <header id="header">
+        <div class="headline">
+            <img src="images/logo.png" alt="Logo">
+            <h1>Price comparison</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="invoice.html">Invoice</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="column">
+                <figure>
+                    <img src="images/trip_sweden.jpg" alt="" width="320px" height="250px">
+                    <figcaption>
+                        <table class="info">
+                            <tr>
+                                <th class="tuerkis">
+                                    <!-- Stockholm-->
+                                    <script>
+                                    document.write(ProductOneName);
+                                    </script>
+                                </th>
+                                <th>€
+                                    <script>
+                                    document.write(ProductOnePrice);
+                                    </script>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Sweden</td>
+                                <td>Average Price</td>
+                            </tr>
+                        </table>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="column">
+                <figure>
+                    <img src="images/trip_madrid.jpg" alt="" width="320px" height="250px">
+                    <figcaption>
+                        <table class="info">
+                            <tr>
+                                <th class="tuerkis">
+                                	<!-- Madrid-->
+                                    <script>
+                                    document.write(ProductTwoName);
+                                    </script>
+                                </th>
+                                <th>€
+                                    <script>
+                                    document.write(ProductTwoPrice);
+                                    </script>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Spain</td>
+                                <td>Average Price</td>
+                            </tr>
+                        </table>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

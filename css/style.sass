@@ -18,35 +18,38 @@ $tuerkis: #1C9BCD
 %flex-2
 	flex: 2 auto
 
+/* full- header */
 #header
 	display: flex
 	flex-direction: row
 	background-color: #003680
 
+
 .headline
 	@extend %flex-2
 
-.headline img
-	height: 60px
-	float: left
-	margin: 13px
+	img
+		height: 60px
+		float: left
+		margin: 13px
 
-.headline h1
-	padding-top: 30px
-	color: white
-	margin: 0px
+	h1
+		padding-top: 30px
+		color: white
+		margin: 0px
 
+/* nav part */
 nav
 	@extend %flex-2
 	text-align: right
 
-nav ul
-	list-style: none
+	ul
+		list-style: none
 
-nav a
-	color: gold
-	padding: 25px
-	line-height: 2.5
+	a
+		color: gold
+		padding: 25px
+		line-height: 2.5
 
 
 /* content */
@@ -66,9 +69,9 @@ figure
 	@include border-radius(10px)
 	margin: 0
 
-figure img
-	@include transparency(opacity 1s ease)
-	opacity: 0.8
+	img
+		@include transparency(opacity 1s ease)
+		opacity: 0.8
 
 figure:hover img
 	opacity: 1

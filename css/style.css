@@ -9,6 +9,7 @@ body {
 .headline, nav {
   flex: 2 auto; }
 
+/* full- header */
 #header {
   display: flex;
   flex-direction: row;
@@ -18,22 +19,20 @@ body {
   height: 60px;
   float: left;
   margin: 13px; }
-
 .headline h1 {
   padding-top: 30px;
   color: white;
   margin: 0px; }
 
+/* nav part */
 nav {
   text-align: right; }
-
-nav ul {
-  list-style: none; }
-
-nav a {
-  color: gold;
-  padding: 25px;
-  line-height: 2.5; }
+  nav ul {
+    list-style: none; }
+  nav a {
+    color: gold;
+    padding: 25px;
+    line-height: 2.5; }
 
 /* content */
 .container {
@@ -56,13 +55,12 @@ figure {
   -ms-border-radius: 10px;
   border-radius: 10px;
   margin: 0; }
-
-figure img {
-  -webkit-transition: opacity 1s ease;
-  -moz-transition: opacity 1s ease;
-  -o-transition: opacity 1s ease;
-  transition: opacity 1s ease;
-  opacity: 0.8; }
+  figure img {
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    opacity: 0.8; }
 
 figure:hover img {
   opacity: 1; }
